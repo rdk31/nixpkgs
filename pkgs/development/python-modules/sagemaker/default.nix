@@ -9,6 +9,7 @@
 , protobuf
 , protobuf3-to-dict
 , smdebug-rulesconfig
+, pandas
 }:
 
 buildPythonPackage rec {
@@ -33,6 +34,7 @@ buildPythonPackage rec {
     protobuf
     protobuf3-to-dict
     smdebug-rulesconfig
+    pandas
   ];
 
   meta = with lib; {
